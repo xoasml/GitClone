@@ -80,6 +80,23 @@ a {
 .input--text::-moz-input-placeholder {
     color: #cacaca;
 }
+/******************/
+/* FLOAT CLEARFIX */
+/******************/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.float--left {
+    float: left;
+}
+
+.float--right {
+    float: right;
+}
+
 
 /**********/
 /* HEADER */
@@ -129,5 +146,43 @@ header .main-menu li a {
 }
 
 header .main-menu li a:hover {
+    color: #4078c0;
+}
+
+header .sign-group {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .btn-group{
+    order: 2;
+}
+
+#search-form {
+    order: 1;
+}
+
+#search {
+    width: 160px;
+    font-size: 14px;
+}
+
+#search + [type=submit] {
+    display: none;
+}
+
+header .sub-menu {
+    display: flex;
+}
+
+header .sub-menu li a {
+    padding: 8px;
+    display: block;
+    font-size: 13px;
+    color: #3c4146;
+}
+
+header .sub-menu li a:hover {
     color: #4078c0;
 }
