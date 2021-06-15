@@ -413,7 +413,6 @@ header .sub-menu li a:hover {
 
 .section--pricing .inner {
     padding: 80px 0;
-    
 }
 
 .section--pricing .card {
@@ -442,4 +441,24 @@ header .sub-menu li a:hover {
     line-height: 1.5;
     flex: 1;
     border-left: 1px solid #e5e5e5;
+}
+
+/**********/
+/* FOOTER */
+/**********/
+footer {
+
+}
+
+footer .inner {
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+}
+
+footer .site-links {
+
+}
+
+footer .site-links li {
+
 }
